@@ -7,7 +7,7 @@
 This repository contains the implementation of the paper, '[DyFADet: Dynamic Feature Aggregation for Temporal Action Detection](https://arxiv.org/pdf/2003.07326.pdf)'. 
 
 
-<div align=center><img width="380" height="410" src=""/></div>
+<div align=center><img width="380" height="410" src="https://github.com/yangle15/DyFADet-pytorch/blob/main/pics/fig1.png"/></div>
 
 
 ## Installation
