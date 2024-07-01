@@ -80,17 +80,18 @@ CUDA_VISIBLE_DEVICES=0 python eval.py ./configs/CONFIG_FILE PATH_TO_CHECKPOINT
 ### Citation
 If you find this work useful or use our codes in your own research, please use the following bibtex:
 ```
-@inproceedings{yang2020resolution,
-  title={Resolution Adaptive Networks for Efficient Inference},
-  author={Yang, Le and Han, Yizeng and Chen, Xi and Song, Shiji and Dai, Jifeng and Huang, Gao},
-  booktitle={Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition},
-  year={2020}
+@inproceedings{yang2024dyfadet,
+  title={DyFADet: Dynamic Feature Aggregation for Temporal Action Detection},
+  author={Yang, Le and Zheng, Ziwei and Han, Yizeng and Cheng, Hao and Song, Shiji and Huang, Gao and Li, Fan},
+  booktitle={European Conference on Computer Vision},
+  year={2024}
 }
 ```
 
 ### Contact
 If you have any questions, please feel free to contact the authors. 
 
+Ziwei Zheng: ziwei.zheng@stu.xjtu.edu.cn
 Le Yang: yangle15@xjtu.edu.cn
 
 ### Acknowledgments
