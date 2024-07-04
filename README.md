@@ -1,9 +1,7 @@
 # DyFADet: Dynamic Feature Aggregation for Temporal Action Detection (ECCV2024)
+[![arXiv preprint](https://img.shields.io/badge/arxiv_2407.03197-blue%3Flog%3Darxiv)](https://arxiv.org/pdf/2407.03197) [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/dyfadet-dynamic-feature-aggregation-for/temporal-action-localization-on-hacs)](https://paperswithcode.com/sota/temporal-action-localization-on-hacs?p=dyfadet-dynamic-feature-aggregation-for)[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/dyfadet-dynamic-feature-aggregation-for/temporal-action-localization-on-fineaction)](https://paperswithcode.com/sota/temporal-action-localization-on-fineaction?p=dyfadet-dynamic-feature-aggregation-for)
 
-[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/tridet-temporal-action-detection-with/temporal-action-localization-on-activitynet)](https://paperswithcode.com/sota/temporal-action-localization-on-activitynet?p=tridet-temporal-action-detection-with)
-
-
-This repository contains the implementation of the paper, '[DyFADet: Dynamic Feature Aggregation for Temporal Action Detection](https://arxiv.org/pdf/2003.07326.pdf)'. 
+This repository contains the implementation of the paper, '[DyFADet: Dynamic Feature Aggregation for Temporal Action Detection](https://arxiv.org/abs/2407.03197)'. 
 
 
 <div align=center><img width="900" height="280" src="https://github.com/yangle15/DyFADet-pytorch/blob/main/pics/fig1.png"/></div>
@@ -95,18 +93,18 @@ After training, you can test the obtained model by the following command:
 CUDA_VISIBLE_DEVICES=0 python eval.py ./configs/CONFIG_FILE PATH_TO_CHECKPOINT
 ```
 
-The mean average precision (mAP) results are :
+The mean average precision (mAP) results with the [pre-trained models](https://pan.baidu.com/s/1Aj-zLL4duNaX_GC4nJZ4Gg?pwd=wn4h) are :
 
-| Dataset         | 0.3 /0.5/0.1  | 0.7 /0.95  | Avg   | Pre-trained | Config |
-|-----------------|-----------|------------|-------|-------------|--------|
-| THUMOS14-I3D    | 84.0| 47.9 | 69.2  | checkpoint | thumos_i3d.yaml |
-| THUMOS14-VM2-g  | 84.3| 50.2 | 70.5  | checkpoint | thumos_mae.yaml |
-| ActivityNet-TSP | 58.1| 8.4  | 38.5  | checkpoint | anet_tsp.yaml   |
-| HACS-SF         | 57.8| 11.8 | 39.2  | checkpoint | hacs_slowfast.yaml|
-| HACS-VM2-g      | 64.0| 14.1 | 44.3  | checkpoint | hacs_mae.yaml   |
-| FineAction-VM2-g| 37.1| 5.9  | 23.8  | checkpoint | fineaction.yaml  |
-| EPIC-KITCHEN-n  | 28.0| 20.8 | 25.0  | checkpoint | epic_slowfast_noun.yaml |
-| EPIC-KITCHEN-v  | 26.8| 18.5 | 23.4  | checkpoint | epic_slowfast_verb.yaml
+| Dataset         | 0.3 /0.5/0.1  | 0.7 /0.95  | Avg   | Config |
+|-----------------|-----------|------------|-------|-----------------|
+| THUMOS14-I3D    | 84.0| 47.9 | 69.2  |  thumos_i3d.yaml |
+| THUMOS14-VM2-g  | 84.3| 50.2 | 70.5  |  thumos_mae.yaml |
+| ActivityNet-TSP | 58.1| 8.4  | 38.5  |  anet_tsp.yaml   |
+| HACS-SF         | 57.8| 11.8 | 39.2  |  hacs_slowfast.yaml|
+| HACS-VM2-g      | 64.0| 14.1 | 44.3  |  hacs_mae.yaml   |
+| FineAction-VM2-g| 37.1| 5.9  | 23.8  |  fineaction.yaml  |
+| EPIC-KITCHEN-n  | 28.0| 20.8 | 25.0  |  epic_slowfast_noun.yaml |
+| EPIC-KITCHEN-v  | 26.8| 18.5 | 23.4  |  epic_slowfast_verb.yaml
 
 
 ### Citation
@@ -124,6 +122,7 @@ If you find this work useful or use our codes in your own research, please use t
 If you have any questions, please feel free to contact the authors. 
 
 Ziwei Zheng: ziwei.zheng@stu.xjtu.edu.cn
+
 Le Yang: yangle15@xjtu.edu.cn
 
 ### Acknowledgments
