@@ -93,7 +93,7 @@ After training, you can test the obtained model by the following command:
 CUDA_VISIBLE_DEVICES=0 python eval.py ./configs/CONFIG_FILE PATH_TO_CHECKPOINT
 ```
 
-The mean average precision (mAP) results with the [pre-trained models](https://pan.baidu.com/s/1Aj-zLL4duNaX_GC4nJZ4Gg?pwd=wn4h) are :
+The mean average precision (mAP) results with the [pre-trained models (BaiduYun Link)](https://pan.baidu.com/s/1Aj-zLL4duNaX_GC4nJZ4Gg?pwd=wn4h) are :
 
 | Dataset         | 0.3 /0.5/0.1  | 0.7 /0.95  | Avg   | Config |
 |-----------------|-----------|------------|-------|-----------------|
