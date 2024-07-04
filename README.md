@@ -80,7 +80,7 @@ You can train your own model with the provided CONFIG files. The command for tra
 CUDA_VISIBLE_DEVICES=0 python train.py ./configs/CONFIG_FILE --output OUTPUT_PATH
 ```
 
-You need to select a specific config files corresponding to different datasets, and further change the *json_file* and *feat_folder*.
+You need to select a specific config files corresponding to different datasets. For the config json file, you need to further change the *json_file* variable to the path of your annotation file, and the *feat_folder* variable to the path of the downloaded dataset.
 
 All the model can be trained on a single Nvidia RTX 4090 GPU (24GB).
 
@@ -113,7 +113,7 @@ If you find this work useful or use our codes in your own research, please use t
 @inproceedings{yang2024dyfadet,
   title={DyFADet: Dynamic Feature Aggregation for Temporal Action Detection},
   author={Yang, Le and Zheng, Ziwei and Han, Yizeng and Cheng, Hao and Song, Shiji and Huang, Gao and Li, Fan},
-  booktitle={European Conference on Computer Vision},
+  booktitle={European Conference on Computer Vision (ECCV)},
   year={2024}
 }
 ```
